@@ -2,6 +2,8 @@ backend:
     name: git-gateway
     branch: main
 
+media_folder: "src/images"   # Where media files are uploaded
+public_folder: "/images"     # Where they will be publicly accessible after build
 
 collections:
   - name: "posts"
