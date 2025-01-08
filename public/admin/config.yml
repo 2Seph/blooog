@@ -1,0 +1,17 @@
+backend:
+    name: git-gateway
+    branch: main
+
+
+collections:
+  - name: "posts"
+    label: "post"
+    folder: "src/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "title", name: "title", widget: "string" }
+      - { label: "date", name: "date", widget: "datetime" }
+      - { label: "tags", name: "tags", widget: "list", default: ["study"] }
+      - { label: "body", name: "body", widget: "markdown"}
+      
