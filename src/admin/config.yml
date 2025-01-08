@@ -2,7 +2,6 @@ backend:
     name: git-gateway
     branch: main
 
-local_backend: true
 
 collections:
   - name: "posts"
@@ -14,6 +13,5 @@ collections:
       - { label: "title", name: "title", widget: "string" }
       - { label: "date", name: "date", widget: "datetime" }
       - { label: "tags", name: "tags", widget: "list", default: ["study"] }
-      - { label: "title", name: "title", widget: "string" }
-      - { label: "body", name: "body", widget: "markdwon"}
+      - { label: "body", name: "body", widget: "markdown"}
       
