@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e7e1db;
+    color: #2c2a27;
+}
+#space {
+    height:70px;
+}
+
+.index-text {
+    text-align: center;
+}
+.posts-text {
+    margin-top:20px;
+    padding: 0 30px;
+}
+.archive-text {
+    width:150px;
+}
+.archive-text ul {
+    font-size: smaller;
+}
+
+a {
+    color: #5d5142;
+}
+
+#nav {
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color: #e7e1db;
+    padding-top:20px;
+    padding-bottom:40px;
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
