@@ -4,19 +4,21 @@ date: 2025-01-09T21:00:00.000Z
 tags:
   - journal
 ---
-I used to be a pretty positive and bright person, anyone who knew me prior to the pandemic can tell you that. But too much internet during the lockdowns changed that version of me. Over the past few years, misanthropy and pessimism has become second nature for me  (thanks to covid lockdown, my predisposition to addiction and a certain type of home environment..). However, I've realized long ago that reality strongly supports a positive mindset rather than a negative one, which is why I'm hoping to break the habit of being swayed by negativity so easily this year.
+I used to be a pretty positive and bright person, anyone who knew me prior to the pandemic can tell you that much. But too much internet during the lockdowns changed that. Over the past few years, misanthropy and pessimism has become second nature for me  (thanks to covid lockdown, my predisposition to addiction and a certain type of home environment..). However, I've realized long ago that reality strongly supports a positive mindset rather than a negative one, which is why I'm hoping to break the habit of being swayed by negativity so easily this year.
 
 In this post I interchange the word positivity and optimism quite a bit, in the end, what I'm generally getting at is: whimsy.
 
-<img src="https://i.pinimg.com/736x/3d/ab/f1/3dabf1811ea70a57160032b8d6ae4ccf.jpg" style="width:200px;">
+<img src="https://i.pinimg.com/736x/3d/ab/f1/3dabf1811ea70a57160032b8d6ae4ccf.jpg" style="width:300px; margin-left:auto; margin-right:auto; margin-bottom: 20px; display:block;">
+
+<h2>Definition</h2>
 
 <i>"A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty." -Winston Churchill</i>
 
 Optimisim can generally be defined as the belief that outcomes will be positive. Or, in short, optimists are those who believes that:
-
-1. bad stuff won't last forever
-2. it isn't the end of the world
-3. and it isn't entirely your fault
+<h3>
+1. bad stuff won't last forever</h3> <h3>
+2. it isn't the end of the world</h3><h3>
+3. and it isn't entirely your fault</h3>
 
 Such a perspective allows optimists to more easily see the possibility for change.
 
@@ -30,11 +32,11 @@ Toxic positivity is an aversion to any negativity or citicism, and it turns host
 
 Optimism is more about "can's", while toxic positivity is more about "should's." Optimisim is genuine, comes naturally, allows unpleasant feelings. While toxic positivity is a flimsy bandaid towards one's suffering.
 
-Forcing one's self to just 'think-positive' is spiritual bypassing (the use of one's spirituality to avoid the hard work of processing emotional pain) or in other words toxic positivity. True positivity is far more powerful when coupled with the effort of understanding the root causes of negative thoughts, rather than simply trying to ignore them.
+Forcing one's self to just 'think-positive' is basically toxic positivity or spiritual bypassing (the use of one's spirituality to avoid the hard work of processing emotional pain). True positivity is far more powerful when coupled with the effort of understanding the root causes of negative thoughts, rather than simply trying to ignore them.
 
 For example, when feeling offended, rather than just pushing it away, sitting with that feeling and fully processing it can help you slowly release the grip it has on you. Sure, you’ll likely have to face more ego-puncturing moments along the way for it to feel like water off a duck's back, but each time you work through it and surround yourself with things that genuinely make you happy—like how, for me, watching boynextdoor, especially Leehan, or watching stupid memes on tiktok brings comfort - it’s in those moments of self-reflection and joy that you’re more likely to develop a genuine "I can do it" mindset.
 
-<img src="https://i.pinimg.com/736x/86/ac/b5/86acb587da33c4e93322c2d88d05a640.jpg" style="width:300px;">
+<img src="https://i.pinimg.com/736x/86/ac/b5/86acb587da33c4e93322c2d88d05a640.jpg" style="width:300px; display:block; margin-left:auto; margin-right:auto;”>
 
 Adding to that, it's easy to fall into the trap of applying a 'one-size-fits-all' philosophy when sitting with a negative experience, but this ignores the nuances of reality. On the flip side, if you approach life with overly positive expectations, you might end up glossing over problems that need your attention.
 
@@ -48,7 +50,7 @@ For some of us, positivity requires more effort. It could be due to whatever rea
 
 If life is going great it's obviously easer to be positive, like trekking through calm waters. But when life is hard, you have to make the conscious decision to be positive. And making the conscious decision to change an ingrained habit that has become automatic and has formed neural pathways in one's brain requires some pretty monumental effort.
 
-<img src="https://media.tenor.com/eia4mDMe5_IAAAAM/%C4%91u%E1%BB%91i-ch%E1%BA%BFt%C4%91u%E1%BB%91i.gif" style="width:200px;">
+<img src="https://media.tenor.com/eia4mDMe5_IAAAAM/%C4%91u%E1%BB%91i-ch%E1%BA%BFt%C4%91u%E1%BB%91i.gif" style="width:300px; display:block; margin-left:auto; margin-right:auto;">
 
 And it's okay for humans to go through rough patches. It's okay to not be positive 100% of the time, humans aren't built to be upbeat 24/7.
 
@@ -56,7 +58,7 @@ And it's okay for humans to go through rough patches. It's okay to not be positi
 
 When you approach problems, people, or any situation with a positive mindset, you are far more likely to come out with a solution, a friend or a good outcome. Positive mindset attracts other positive people (whom are far more enjoyable).
 
-<img src="https://i.pinimg.com/736x/d4/c1/88/d4c18850c63ea01548b59b6eb2af61fd.jpg" style="width:300px;">
+<img src="https://i.pinimg.com/736x/d4/c1/88/d4c18850c63ea01548b59b6eb2af61fd.jpg" style="width:300px; display:block; margin-left: auto; margin-right:auto;">
 
 There is also this thing called observer effect, which to summarize is where attention goes, energy grows. If we focus more on the negative than the positive, we amplify the negative aspects of the experience. By focusing on our emotions rather than the objective reality, we give those emotions more power, we let them control us. Making challenges feel insurmountable and setbacks feel much bigger than they are.
 
@@ -87,4 +89,4 @@ With optimism and patience,
 
 Me.
 
-<img src="https://i.pinimg.com/736x/2b/aa/b6/2baab63b8c82c75527dde47a8259bfb6.jpg" style="width:200px;">
+<img src="https://i.pinimg.com/736x/2b/aa/b6/2baab63b8c82c75527dde47a8259bfb6.jpg" style="width:300px; display:block; margin-left:auto; margin-right:auto;">
