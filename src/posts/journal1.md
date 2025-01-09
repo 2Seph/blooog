@@ -36,7 +36,6 @@ Forcing one's self to just 'think-positive' is basically toxic positivity or spi
 
 For example, when feeling offended, rather than just pushing it away, sitting with that feeling and fully processing it can help you slowly release the grip it has on you. Sure, you’ll likely have to face more ego-puncturing moments along the way for it to feel like water off a duck's back, but each time you work through it and surround yourself with things that genuinely make you happy—like how, for me, watching boynextdoor, especially Leehan, or watching stupid memes on tiktok brings comfort - it’s in those moments of self-reflection and joy that you’re more likely to develop a genuine "I can do it" mindset.
 
-<img src="https://i.pinimg.com/736x/86/ac/b5/86acb587da33c4e93322c2d88d05a640.jpg" style="width:300px; display:block; margin-left:auto; margin-right:auto;”>
 
 Adding to that, it's easy to fall into the trap of applying a 'one-size-fits-all' philosophy when sitting with a negative experience, but this ignores the nuances of reality. On the flip side, if you approach life with overly positive expectations, you might end up glossing over problems that need your attention.
 
