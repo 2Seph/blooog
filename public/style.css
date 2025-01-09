@@ -18,6 +18,12 @@ body {
     margin-top:20px;
     padding: 0 30px;
 }
+
+img {
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .archive-text {
     width:150px;
 }
