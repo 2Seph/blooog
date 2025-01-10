@@ -14,6 +14,14 @@ upon trying to bring my 'giforecast' idea to life, i rant into a lot of trouble 
 
 when making web apps it's essential to have developer console open, (fn+f12 on chrome and shift+alt+i on firefox). the guide commands i disable cache coz thats good (found on network tab) & enable preserve log if i wanna save past logs.
 
+the guide points me to the network tab to understand how the browser & server communicates with HTTP protocol. Where if i refresh the page, some activities on the left side shows up, and from my understanding these activities are the browsers' HTTP requests, or what the browser wants from the server. If I click on the activity, there are several headers I can look into that give me more info about what happened, for example: the request url, request method, status code, content type & date.
 
+<img src="https://note.nekoweb.org/network.png" 
+style="width:300px; display:block; margin-left:auto; margin-right:auto;">
 
+<br>
+
+the chain of events caused by opening the page: 
+* browser -> GET siteurl -> server -> gives html document
+* broswer -> GET siteurl/img -> server -> gives img
 
