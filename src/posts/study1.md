@@ -1,5 +1,5 @@
 ---
-title: how this was made
+title: trying to make this blog
 date: 2025-01-08
 tags:
   - study
