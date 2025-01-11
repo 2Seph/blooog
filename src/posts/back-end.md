@@ -25,3 +25,4 @@ the chain of events caused by opening the page:
 * browser sends -> HTTP GET html code of page -> server -> gives html document
 * broswer sends -> HTTP GET img -> server -> gives img
 
+the guide also tells me that a callback function is simply a function that is passed as an argument to another function and executed later, often in response to an event. 
