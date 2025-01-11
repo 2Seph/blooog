@@ -23,19 +23,13 @@ style="max-width:300px; display:block; margin-left:auto; margin-right:auto;">
 
 the chain of events caused by opening this page: 
 
-* browser sends -> HTTP GET html code of page -> server -> gives html document
-* broswer sends -> HTTP GET img -> server -> gives img
+* browser sends HTTP GET request of html code of page -> server gives html document
+* broswer sends HTTP GET request of img -> server gives img
 
-the guide also tells me that a **callback function** is simply a function that is passed as an argument to another function and executed later, often in response to an event. 
+the old ways of handling form submissions included sending form data to server then reloading the page & fetching back all the files html,css,js,json. form also had action (a url where data will be sent), and a method (post). the spa way of doing it on the other hand is; no action & method in the form (but just an id), and no page reload when there's a new form submission. my assignment answer for this can be found [here](https://docs.google.com/document/d/1Y8clXXFTHbqERVwwLrkHW3hzn9CIFJlZQNccNOgspBs/edit?usp=sharing)
 
-and that the browser is the frontend, the JavaScript that runs on the browser is the frontend code. The server on the other hand is the backend.
+the guide also tells me that a **callback function** is simply a function that is passed as an argument to another function and executed later, not when the page loads, but in response to a specific event.
 
-<h4>assignments for 0 - chain of events</h4>
+and that the browser is the frontend, the JavaScript that runs on the browser is also the frontend code. The server on the other hand is the backend.
 
-<a href="https://fullstackopen.com/en/part0/fundamentals_of_web_apps#forms-and-http-post">this might help</a> 
-
-1. depict situation when user creates a new note (by writing smth on text field and clicking save button) on ./exampleapp/notes 
-2. depict situation when user goes to the ./exampleapp/spa version of notes app
-3. depict situation when user creates a new note in ./exampleapp/spa
-
-(remember 0.1 will be abt react which chantal & most developers know, dont get left behind by getting scared of fake assignments)
+<h2>1.0 intro to react</h2>
