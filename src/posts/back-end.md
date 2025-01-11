@@ -10,7 +10,7 @@ upon trying to bring my 'giforecast' idea to life, i rant into a lot of trouble 
 
 <br>
 
-<h2>fundamentals of web apps</h2>
+<h2>0.1 fundamentals of web apps</h2>
 
 when making web apps it's essential to have developer console open, (fn+f12 on chrome and shift+alt+i on firefox). the guide commands i disable cache coz thats good (found on network tab) & enable preserve log if i wanna save past logs.
 
@@ -21,8 +21,17 @@ style="width:400px; display:block; margin-left:auto; margin-right:auto;">
 
 <br>
 
-the chain of events caused by opening the page: 
+the chain of events caused by opening this page: 
 * browser sends -> HTTP GET html code of page -> server -> gives html document
 * broswer sends -> HTTP GET img -> server -> gives img
 
-the guide also tells me that a callback function is simply a function that is passed as an argument to another function and executed later, often in response to an event. 
+the guide also tells me that a **callback function** is simply a function that is passed as an argument to another function and executed later, often in response to an event. 
+
+and that the browser is the frontend, the JavaScript that runs on the browser is the frontend code. The server on the other hand is the backend.
+
+<h4>assignments for 0.1 - chain of events</h4>
+
+<a href="https://fullstackopen.com/en/part0/fundamentals_of_web_apps#forms-and-http-post">this might help</a> 
+1. depict situation when user creates a new note (by writing smth on text field and clicking save button) on ./exampleapp/notes 
+2. depict situation when user goes to the ./exampleapp/spa version of notes app
+3. depict situation when user creates a new note in ./exampleapp/spa 
