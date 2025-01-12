@@ -8,6 +8,7 @@ body {
     color: #2c2a27;
     word-break: break-word;
     overflow-wrap: break-word;
+    padding: 0 20px;
 }
 #space {
     height:70px;
@@ -43,7 +44,7 @@ pre {
     border: 1px dotted rgb(133, 123, 108);
 }
 code {
-    font-size: 0.9rem;
+    font-size: 12px;
     word-break: break-word;
     color: #5d5142;
 }
