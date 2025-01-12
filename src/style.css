@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     background-color: #e7e1db;
     color: #2c2a27;
-    width:100%;
+    width: 100%;
 }
 #space {
     height:70px;
@@ -17,7 +17,8 @@ body {
 }
 .posts-text {
     margin-top:20px;
-    padding: 0 30px;
+    width: 100%;
+    padding: 0 20px;
 }
 
 img {
@@ -38,6 +39,7 @@ img {
 pre {
     white-space: pre-wrap;
     word-wrap:break-word;
+    border: 1px dotted rgb(133, 123, 108);
 }
 code {
     font-size: 0.9rem;

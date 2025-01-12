@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     background-color: #e7e1db;
     color: #2c2a27;
+    width: 100%;
 }
 #space {
     height:70px;
@@ -16,7 +17,8 @@ body {
 }
 .posts-text {
     margin-top:20px;
-    padding: 0 30px;
+    width: 100%;
+    padding: 0 20px;
 }
 
 img {
@@ -29,7 +31,7 @@ img {
 
 @media (max-width:768px) {
     img {
-        max-width: 90%;
+        max-width: 60%;
     }
 }
 
@@ -37,10 +39,12 @@ img {
 pre {
     white-space: pre-wrap;
     word-wrap:break-word;
+    border: 1px dotted rgb(133, 123, 108);
 }
 code {
     font-size: 0.9rem;
     word-break: break-word;
+    color: #5d5142;
 }
 pre, code {
     max-width: 100%;
