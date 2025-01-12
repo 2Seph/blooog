@@ -6,9 +6,10 @@ body {
     flex-direction: column;
     background-color: #e7e1db;
     color: #2c2a27;
+    font-size: 18px;
     word-break: break-word;
     overflow-wrap: break-word;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 #space {
     height:70px;
@@ -24,17 +25,10 @@ body {
 }
 
 img {
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-    max-width: 100%;
+    display: block;
+    margin:0 auto;
+    max-width:100%;
     height:auto;
-}
-
-@media (max-width:768px) {
-    img {
-        max-width: 70%;
-    }
 }
 
 
@@ -77,4 +71,11 @@ a {
     display: flex;
     justify-content: center;
     gap:15px;
+}
+
+.index-a {
+    text-align:left; 
+    display:block;  
+    margin: 0 auto; 
+    width:200px; 
 }
