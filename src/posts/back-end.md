@@ -33,3 +33,38 @@ the guide also tells me that a **callback function** is simply a function that i
 and that the browser is the frontend, the JavaScript that runs on the browser is also the frontend code. The server on the other hand is the backend.
 
 <h2>1.0 intro to react</h2>
+
+the guide shows me how to start a react app with vite, which will be called 'introdemo.' first i had to install libraries:
+
+```
+npm create vite@latest introdemo -- --template react
+cd introdemo
+npm install
+npm run dev  <<- how to run it
+```
+
+and i only had to copy paste some code in some files
+
+main.jsx was simplified to:
+
+```
+import ReactDOM from 'react-dom/client'
+
+import App from './App'
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />)
+```
+
+and app.jsx was simplified to:
+
+```
+const App = () => {
+  return (
+    <div>
+      <p>Hello world</p>
+    </div>
+  )
+}
+
+export default App
+```
