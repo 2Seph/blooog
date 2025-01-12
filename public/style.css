@@ -6,7 +6,8 @@ body {
     flex-direction: column;
     background-color: #e7e1db;
     color: #2c2a27;
-    width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 #space {
     height:70px;
@@ -68,7 +69,7 @@ a {
 #nav {
     position:fixed;
     top:0;
-    width:100%;
+    width: 100%;
     background-color: #e7e1db;
     padding-top:20px;
     padding-bottom:40px;
