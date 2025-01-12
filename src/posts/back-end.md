@@ -45,6 +45,8 @@ npm run dev  <<- how to run it
 
 and i only had to copy paste some code in some files
 
+
+
 main.jsx was simplified to:
 
 ```
@@ -54,6 +56,8 @@ import App from './App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />)
 ```
+
+
 
 and app.jsx was simplified to:
 
@@ -68,3 +72,67 @@ const App = () => {
 
 export default App
 ```
+
+what the above does (in app.jsx) is it is defining a react component called 'App,' and this component is rendered to index.html that has id "root", how ? by the line of code in main.jsx "ReactDOM.createRoot(document.getElementById('root')).render(<App />)"
+
+we can try adding content in html file, but with react, content that needs to be rendered is usually defined as react components 
+
+
+
+technically the component is a javascript function. this is what a function without parameters looks like:
+
+```
+() => (
+    <div>
+      <p>hello</p>
+    </div>
+ )
+```
+
+
+
+while function assigned to a constant variable 'App' will then be:
+
+```
+const App = () => (
+    <div...
+)
+```
+
+
+or this way where the function returns the \*value\* of the thingy (the expression)
+
+```
+const App = () => {
+    return (
+        <div...
+    )
+}
+```
+
+
+
+the function defining the component can contain any kind of JS code, for example
+
+```
+const App = () => {
+    const now = new Date()
+    const a = 10
+    const b = 20
+    console.log(now, a+b)
+
+    return (
+      <div>
+        <p>Hello world, it is {now.toString()}</p>
+        <p>
+          {a} plus {b} is {a + b}
+        </p>
+      </div>
+    )
+  }
+
+```
+
+
+
+the last line of code at the bottom of component is also important, without it whole app breaks down ("export default App")
