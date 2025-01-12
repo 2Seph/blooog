@@ -6,8 +6,7 @@ layout: "home.njk"
 
 <div class="index-text">
 
-<img src="https://i.pinimg.com/736x/40/1c/54/401c541931fe54d99cdba80594123852.jpg"
-style="width:200px">
+<img src="https://i.pinimg.com/736x/40/1c/54/401c541931fe54d99cdba80594123852.jpg">
 
 
 welcome!!
