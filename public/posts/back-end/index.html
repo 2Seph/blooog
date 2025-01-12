@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>back end</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="nav">
+    <a href="/">home</a>
+    <a href="archive">archive</a>
+    <a href="">about</a>
+</div>
+    <div id="space"></div>
+
+    <div class="posts-text">
+            <h2>back end</h2>
+            <h4>Jan 11, 2025</h4>
+        <p>upon trying to bring my 'giforecast' idea to life, i rant into a lot of trouble and confusion, youtube videos were not a lot of help. so now, thanks to a 'how to get started with backend' post on reddit, i'm gonna try and learn from the ground up with fullstackopen.com/en. comments also mentioned that taking up computer science will put you on the right track to learning design architecture and network stuff anyway. but, i'm impatient, and i have the <strong>audacity</strong> to dive into this magical backend stuff. i'll be using this post for my notes. fuck python, fuck everyone. let's fucking go (pt.2)</p>
+<img src="https://i.pinimg.com/736x/ef/b5/11/efb5119dc51f634bbca577bae2e03a4e.jpg">
+<br>
+<h2>0.0 fundamentals of web apps</h2>
+<p>when making web apps it's essential to have developer console open, (fn+f12 on chrome and shift+alt+i on firefox). the guide commands i disable cache coz thats good (found on network tab) &amp; enable preserve log if i wanna save past logs.</p>
+<p>the guide points me to the network tab to understand how the browser &amp; server communicates with HTTP protocol. Where if i refresh the page, some activities on the left side shows up, and from my understanding these activities are the browsers' HTTP requests, or what the browser wants from the server. If I click on the activity, there are several headers I can look into that give me more info about what happened, for example: the request url, request method, status code, content type &amp; date.</p>
+<img src="https://note.nekoweb.org/network.png">
+<br>
+<p>the chain of events caused by opening this page:</p>
+<ul>
+<li>browser sends HTTP GET request of html code of page -&gt; server gives html document</li>
+<li>broswer sends HTTP GET request of img -&gt; server gives img</li>
+</ul>
+<p>the old ways of handling form submissions included sending form data to server then reloading the page &amp; fetching back all the files html,css,js,json. form also had action (a url where data will be sent), and a method (post). the spa way of doing it on the other hand is; no action &amp; method in the form (but just an id), and no page reload when there's a new form submission. my assignment answer for this can be found <a href="https://docs.google.com/document/d/1Y8clXXFTHbqERVwwLrkHW3hzn9CIFJlZQNccNOgspBs/edit?usp=sharing">here</a></p>
+<p>the guide also tells me that a <strong>callback function</strong> is simply a function that is passed as an argument to another function and executed later, not when the page loads, but in response to a specific event.</p>
+<p>and that the browser is the frontend, the JavaScript that runs on the browser is also the frontend code. The server on the other hand is the backend.</p>
+<h2>1.0 intro to react</h2>
+<p>the guide shows me how to start a react app with vite, which will be called 'introdemo.' first i had to install libraries:</p>
+<pre><code>npm create vite@latest introdemo -- --template react
+cd introdemo
+npm install
+npm run dev  &lt;&lt;- how to run it
+</code></pre>
+<p>and i only had to copy paste some code in some files</p>
+<p>main.jsx was simplified to:</p>
+<pre><code>import ReactDOM from 'react-dom/client'
+
+import App from './App'
+
+ReactDOM.createRoot(document.getElementById('root')).render(&lt;App /&gt;)
+</code></pre>
+<p>and app.jsx was simplified to:</p>
+<pre><code>const App = () =&gt; {
+  return (
+    &lt;div&gt;
+      &lt;p&gt;Hello world&lt;/p&gt;
+    &lt;/div&gt;
+  )
+}
+
+export default App
+</code></pre>
+<p>what the above does (in app.jsx) is it is defining a react component called 'App,' and this component is rendered to index.html that has id &quot;root&quot;, how ? by the line of code in main.jsx &quot;ReactDOM.createRoot(document.getElementById('root')).render(<App />)&quot;</p>
+<p>we can try adding content in html file, but with react, content that needs to be rendered is usually defined as react components</p>
+<p>technically the component is a javascript function. this is what a function without parameters looks like:</p>
+<pre><code>() =&gt; (
+    &lt;div&gt;
+      &lt;p&gt;hello&lt;/p&gt;
+    &lt;/div&gt;
+ )
+</code></pre>
+<p>while function assigned to a constant variable 'App' will then be:</p>
+<pre><code>const App = () =&gt; (
+    &lt;div...
+)
+</code></pre>
+<p>or this way where the function returns the *value* of the thingy (the expression)</p>
+<pre><code>const App = () =&gt; {
+    return (
+        &lt;div...
+    )
+}
+</code></pre>
+<p>the function defining the component can contain any kind of JS code, for example</p>
+<pre><code>const App = () =&gt; {
+    const now = new Date()
+    const a = 10
+    const b = 20
+    console.log(now, a+b)
+
+    return (
+      &lt;div&gt;
+        &lt;p&gt;Hello world, it is {now.toString()}&lt;/p&gt;
+        &lt;p&gt;
+          {a} plus {b} is {a + b}
+        &lt;/p&gt;
+      &lt;/div&gt;
+    )
+  }
+
+</code></pre>
+<p>the last line of code at the bottom of component is also important, without it whole app breaks down (&quot;export default App&quot;)</p>
+
+    </div>
+    
+</body>
+</html>

@@ -22,7 +22,33 @@ body {
 img {
     margin-left:auto;
     margin-right:auto;
+    display:block;
+    max-width: 100%;
+    height:auto;
 }
+
+@media (max-width:768px) {
+    img {
+        max-width: 90%;
+    }
+}
+
+
+pre {
+    white-space: pre-wrap;
+    word-wrap:break-word;
+}
+code {
+    font-size: 0.9rem;
+    word-break: break-word;
+}
+pre, code {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding:1em;
+    overflow-wrap: break-word;
+}
+
 
 .archive-text {
     width:150px;
